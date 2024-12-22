@@ -10,6 +10,7 @@
         "video",
         "document"
     ],
+    "version": "1.0.0",
     "type": "flarum-extension",
     "license": "MIT",
     "authors": [
