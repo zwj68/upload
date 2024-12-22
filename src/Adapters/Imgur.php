@@ -67,7 +67,11 @@ class Imgur implements UploadAdapter
 
             $link = Arr::get($meta, 'link');
 
-            $file->url = $link;
+            # $file->url = $link;
+            // Replace the link with the desired proxy link
+            $proxyLink = str_replace('https://i.imgur.com/', 'https://imgur.explorechina.club/', $link);
+    
+            $file->url = $proxyLink;
             $file->remote_id = Arr::get($meta, 'id');
         }
 
