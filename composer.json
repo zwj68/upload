@@ -1,5 +1,5 @@
 {
-    "name": "fof/upload",
+    "name": "zwj68/upload",
     "description": "The file upload extension for the Flarum forum with insane intelligence.",
     "keywords": [
         "upload",
@@ -14,9 +14,9 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Daniël Klabbers",
-            "email": "daniel@klabbers.email",
-            "homepage": "https://luceos.com/"
+            "name": "NickJun",
+            "email": "i@nickjun.com",
+            "homepage": "https://nickjun.com/"
         }
     ],
     "support": {
